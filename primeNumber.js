@@ -14,4 +14,18 @@
  * License for the specific language governing permissions and limitations
  * under the License.
  */
-
+#!/usr/bin/env node 
+//sha-bash enviornment variable
+//For more info on prime numbers, Visit http://en.wikipedia.org/wiki/Prime_Number
+var primeNum= new function(n) {
+//First function to check the number is as follows
+	var checkVar=(n%2);
+	return(checkVar);
+}
+var num=19;
+	if(primeNum(num)==0) {
+		console.log("This is a prime number");
+	}
+	else	{
+		console.log("This is not a prime Number");
+	}
