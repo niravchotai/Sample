@@ -17,21 +17,25 @@
  * License for the specific language governing permissions and limitations
  * under the License.
  */
-/*
-var prim = new function(n) {
+ var prim = new function(x) {
 
 //First function to check the number is as follows
-	var checkVar=(n%2);
-	return(checkVar);
-}*/
-var num=19;
-var b=num%2;
+	
+	return(x%2);
+ }
+ var a= prim(10);
+console.log(a);
+
+
+
+/*var b=num%2;
 	if( b == 1) {
 		console.log("This is a prime number");
 	}
 	else	{
 		console.log("This is not a prime Number");
-	}
+	}*/
+
 	
 	
 	
