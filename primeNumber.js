@@ -1,4 +1,3 @@
-#!/usr/bin/env node 
 //sha-bash enviornment variable
 //For more info on prime numbers, Visit http://en.wikipedia.org/wiki/Prime_Number
 
@@ -18,10 +17,9 @@
  * under the License.
  */
 
-var primeNumber = new function(x)	{
+var pNum = new function(num)	{
 
-	return(x%2);
+	console.log(num%2);
 
-}
-var number = primeNumber(21);
-console.log(number);
+};
+var pNum=100;
