@@ -16,10 +16,22 @@
  * License for the specific language governing permissions and limitations
  * under the License.
  */
+var fs = require("fs");
+var outfile = "primeNumber.txt";
+function pNum(max)	{
+var arr = [];
+	for(i=1;i<=100;i++) {
+		if(i%2 == 0) {
+			arr.push(i);
+			}
+		}
+	return arr;	
+	};
 
-var pNum = new function(num)	{
-
-	console.log(num%2);
-
+var frag = function(arr) {
+return arr.join("\n");
 };
-var pNum=100;
+var max=100;
+
+fs.writeFileSync(outfile, frag(pNum(max)));
+console.log(frag(pNum(max)));
