@@ -17,7 +17,7 @@
  * under the License.
  */
 var fs = require("fs");
-var outfile = "primeNumber.txt";
+var outfile = "oddOrEven.txt";
 function pNum(max)	{
 var arr = [];
 	for(i=1;i<=100;i++) {
