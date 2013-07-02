@@ -24,17 +24,24 @@ var rl = require("readline");
 prompts.question("Untill How much do you wanna fing the prime Number Series? ", function  (numberFromPrompt) {
 	console.log(numberFromPrompt);
 		});*/
-var fs=require("fs");
-var arr=[];
-
-
-var outfile = "primeNumber.txt";
+var fs=require("fs"); //file stream object initialized
+var arr=[]; //array initialized, to push prime numbers 
+var outfile = "primeNumber.txt"; // file to be created and prime numbers to be shown
+/*
+ The pusher function is a  small, intelligent function to do much more things. Simply pushes the prime number parametered from function 'loopMe' to the array.
+*/
 var pusher = function(number) {
 	arr.push(number);
-		};
+		};		
+/*
+the function fmt is used to concatanate items in the array with " " for console/file friendly output.
+*/		
 var fmt = function(arr) {
-	return arr.join(" \t");
+	return arr.join(" ");
 };		
+/*
+This is the major function in this snippet. this function gives us the result that is the number is prime or not. it recieves input from 'loopMe' and returns is it a prime or not.
+*/
 var isPrime = function(num) {
 if(num < 2)	{
 	return false;
