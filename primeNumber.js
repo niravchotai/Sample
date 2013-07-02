@@ -46,18 +46,19 @@ for (var i = 2; i < num; i++)	{
 }
 return true;
 };
-var loopMe = function (maxim)	{
-	for (numb=0;numb<=maxim;numb++)	{
-	var bool=isPrime(numb);
-	if(bool===true)	{
-	pusher(numb);
-	}
-}
-};
-
 var printMe =function()	{		
 	console.log(fmt(arr));
 	fs.writeFileSync(outfile, fmt(arr));
 };
-loopMe(100);
+var loopMe = function (maxim)	{
+	for (numb=0;numb<=maxim;numb++)	{
+		var bool=isPrime(numb);
+			if(bool===true)	{
+				pusher(numb);
+			}
+	}
 printMe();
+};
+
+
+loopMe(100);
