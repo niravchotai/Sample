@@ -1,8 +1,9 @@
+#!/usr/bin/env node
 //sha-bash enviornment variable
 //For more info on prime numbers, Visit http://en.wikipedia.org/wiki/Prime_Number
 
 /**
- * Copyright  © 2013  Verifi, Corp. 
+ * Copyright  ï¿½ 2013  Verifi, Corp. 
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may
  * not use this file except in compliance with the License. You may obtain
