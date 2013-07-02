@@ -49,6 +49,3 @@
  var k = 20;
  console.log("firstkfib(" + k + ")");
  console.log(fmt(firstkfib(k)));
- //Sample edit
- // Hai there here is something else to check. I am now studiying Git, the fast version control system. this is my status. 
-
