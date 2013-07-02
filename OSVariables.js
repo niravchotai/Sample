@@ -1,4 +1,4 @@
-// JavaScript Document
+/#!/usr/bin/env node
 /**
  * Copyright  � 2013  Verifi, Corp. 
  *
