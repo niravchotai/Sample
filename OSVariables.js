@@ -1,6 +1,6 @@
 // JavaScript Document
 /**
- * Copyright  © 2013  Verifi, Corp. 
+ * Copyright  ï¿½ 2013  Verifi, Corp. 
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may
  * not use this file except in compliance with the License. You may obtain
@@ -19,4 +19,3 @@ var message = 'Running on Node.js'
 	+ process.version +
 	os.type() ;
 console.log(message);
-//added a comment
